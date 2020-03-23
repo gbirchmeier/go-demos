@@ -1,11 +1,11 @@
 package main
 
-import(
-  "fmt"
-  "grant/helloworld/demopackage"
+import (
+	"fmt"
+	"grant/helloworld/demopackage"
 )
 
 func main() {
-  fmt.Println("Hello, world.")
-  fmt.Println(demopackage.ReverseRunes("hello world"))
+	fmt.Println("Hello, world.")
+	fmt.Println(demopackage.ReverseRunes("hello world"))
 }
